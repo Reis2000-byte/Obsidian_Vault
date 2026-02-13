@@ -60,7 +60,21 @@ Write a C function to reverse an integer array **without extra memory**, and the
 - Microcontrollers: GPIO, UART, SPI, I2C, ADC, PWM
     
 - Timers & interrupts
-    
+    **Example of Timers**:
+    ```
+	    void timer_init(void)
+	    {
+	    }
+	    
+	    void __interupt() timer_isr(void)
+	    {
+		    if(TMR1IF)
+		    {
+			    TMR1IF = 0;
+			    system_tick++;
+		    }
+	    }
+    ```
 - RTOS basics: tasks/threads, priorities, semaphores, mutexes
     
 - Memory-mapped I/O
@@ -79,7 +93,7 @@ Write a C function to reverse an integer array **without extra memory**, and the
     - RTOS task with delay
         
 2. Implement a software debounce routine for a push button.
-
+basic implementation without states:
 ```
 	#define DEBOUNCE_TIME_MS 20
 	
@@ -116,7 +130,76 @@ Write a C function to reverse an integer array **without extra memory**, and the
 		}
 	}
 ```
-    
+
+Implementation with states:
+
+```
+	type_def enum 
+	{
+		IDLE,
+		DEBOUNCE_PRESS,
+		PRESSED,
+		DEBOUNCE_RELEASED
+	}button_state_t;
+	
+	#define DEBOUNCE_TIME_MS 20
+	
+	volatile button_state_t btn_state = IDLE;
+	volatile debounce_timer = 0;
+	volatile button_event = 0; //flag for main app
+	
+	void debounce_task(void)
+	{
+		uint8_t raw = PORTbits.RB0;
+		
+		switch(btn_state)
+		{
+			case IDLE:
+				if(raw == 0) // detected press
+				{
+					debounce_timer = 0;
+					btn_state = DEBOUNCE_PRESS;
+				}
+				break;
+			case DEBOUNCE_PRESS:
+				if(raw == 0)
+				{
+					debounce_timer++;
+					if(debounce_timer > DEBOUNCE_TIME_MS)
+					{
+						btn_state = PRESSED;
+						button_event = 1;
+					}
+				}
+				else
+						btn_state = IDLE;
+				break;
+			case PRESSED:
+				if(raw == 1) // detected press
+				{
+					debounce_timer = 0;
+					btn_state = DEBOUNCE_RELEASED;
+				}
+				break;
+			case DEBOUNCE_PRESS:
+				if(raw == 1)
+				{
+					debounce_timer++;
+					if(debounce_timer > DEBOUNCE_TIME_MS)
+					{
+						btn_state = IDLE;
+						button_event = 0;
+					}
+				}
+				else
+						btn_state = PRESSED;
+				break;
+			default:
+		}
+	}
+
+```
+
 3. Write a function to read N ADC samples and return the average.
     
 
