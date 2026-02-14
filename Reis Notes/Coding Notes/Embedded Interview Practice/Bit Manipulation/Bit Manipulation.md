@@ -1,15 +1,15 @@
 
-| Problem                  | Difficulty | Comfort | Last Reviewed |
-| ------------------------ | ---------- | ------- | ------------- |
-| 67. Add Binary           | Easy       | ok      | 2/10/2026     |
-| 136. Single Number       | Easy       | good    | 2/10/2026     |
-| 191. Number of 1 Bits    | Easy       | good    | 2/10/2026     |
-| 231. Power of Two        | Easy       | good    | 2/10/2026     |
-| 190. Reverse Bits        | Easy       |         |               |
-| 371. Sum of Two Integers | Medium     | ok      | 2/10/2026     |
-|                          |            |         |               |
-|                          |            |         |               |
-|                          |            |         |               |
+| Problem                           | Difficulty | Comfort | Last Reviewed |
+| --------------------------------- | ---------- | ------- | ------------- |
+| 67. Add Binary                    | Easy       | ok      | 2/10/2026     |
+| 136. Single Number                | Easy       | good    | 2/10/2026     |
+| 191. Number of 1 Bits             | Easy       | good    | 2/10/2026     |
+| 231. Power of Two                 | Easy       | good    | 2/10/2026     |
+| 190. Reverse Bits                 | Easy       |         |               |
+| 371. Sum of Two Integers          | Medium     | ok      | 2/10/2026     |
+| 461 Hamming Distance              | Easy       | good    | 2/13/2026     |
+| 268. Missing Number               | Easy       | ok      | 2/13/2026     |
+| 201. bitwise AND of Numbers Range | Medium     | meh     | 2/13/2026     |
 ## **🟢 Easy – Fundamentals of Bits**
 
 1. **[Single Number](https://leetcode.com/problems/single-number/)**

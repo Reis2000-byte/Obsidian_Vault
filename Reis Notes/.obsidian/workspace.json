@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Embedded Interview Practice/Interview Questions/Interview Questions.md",
+                "file": "Coding Notes/Embedded Interview Practice/Embedded Software Engineer – Study Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Questions"
+              "title": "Embedded Software Engineer – Study Guide"
             }
           }
         ]
@@ -171,12 +171,14 @@
   },
   "active": "12cca222bcaa865d",
   "lastOpenFiles": [
-    "Pete Call Notes.md",
-    "Coding Notes/Embedded Interview Practice/Interview Prompt.md",
-    "Coding Notes/Embedded Interview Practice/Interview Questions/Interview Questions.md",
+    "Coding Notes/Structs.md",
+    "Coding Notes/Unions.md",
     "Coding Notes/Embedded Interview Practice/Embedded Software Engineer – Study Guide.md",
     "Coding Notes/Memory Allocation.md",
     "Coding Notes/Embedded Interview Practice/Bit Manipulation/Bit Manipulation.md",
+    "Coding Notes/Embedded Interview Practice/Interview Questions/Interview Questions.md",
+    "Pete Call Notes.md",
+    "Coding Notes/Embedded Interview Practice/Interview Prompt.md",
     "Coding Notes/Operating System Notes/Threads.md",
     "Coding Notes/Ternary Operator.md",
     "Coding Notes/Embedded Interview Practice/Interview Questions/desktop.ini",
@@ -206,8 +208,6 @@
     "HVAC STUFF/Hydra/System Notes/Product Team Q&A.md",
     "HVAC STUFF/Hydra/System Notes/INV Needs.md",
     "HVAC STUFF/Hydra/System Notes/Electric Heat Notes.md",
-    "HVAC STUFF/Hydra/Meeting Minutes/EEV Control Meeting Notes.md",
-    "Hydra/System Config Meeting.md",
-    "HVAC STUFF/Relyence/Relyence.md"
+    "HVAC STUFF/Hydra/Meeting Minutes/EEV Control Meeting Notes.md"
   ]
 }
