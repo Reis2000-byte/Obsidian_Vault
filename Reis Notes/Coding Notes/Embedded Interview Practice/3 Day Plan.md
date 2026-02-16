@@ -92,14 +92,102 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 | Location              |              |                | RAM                                  |
 
 - Struct padding
-    
-- Pointers and const correctness
-    
-- Function pointers
-    
-- Circular buffers
-    
+- Pointers
+	- star p is dereferencing the pointer (pass by value)
+	- &p is pass by reference which is the address of the pointer
+	- When we do this:
+		- Modifying a variable inside a function
+		- Passing large structs (avoid stack copy)
+		- Modifying arrays (arrays decay to pointers)
+		- Linked lists
+		- DMA buffers
+		- Register manipulation
+	- Example:
+		```
+			void foo(int *x) 
+			{
+			    *x = 10;   // modify value at that address
+			}
+				
+			int main() 
+			{
+				int a = 5;
+				foo(&a);
+			}
+		```
+	    - &a → address of a
+		- foo receives a pointer to a
+		- `*x = 10` modifies memory at that address
+		- Embedded Example:
+		```
+			void read_sensor(uint16_t *value) 
+			{
+			    *value = ADC_Read();
+			}
+			uint16_t sensor;
+			read_sensor(&sensor);
 
+		```
+- Const correctness
+	- Read pointers right to left to give understanding
+	- You can have constant pointers, constant data, and constant pointers to constant data
+	- Const is valuable in making sure variables don't get modified as well as confirming that sections of code get written to flash ie. a look-up table
+- Function pointers
+	- Definition:
+		- A function pointer stores the address of a function and allows it to be called indirectly. It enables runtime selection of behavior and is widely used in embedded systems for interrupt vector tables, callbacks, state machines, and driver abstraction. It improves modularity and flexibility but must be used carefully to avoid null or invalid calls.
+	- Syntax:
+    ```void (*func_ptr)(void);   // pointer to function```
+	Callbacks:
+```
+	void register_callback(void (*cb)(int))
+	{
+	    callback = cb;
+	}
+``` 
+
+- Circular Buffers
+	- A circular buffer is a fixed-size queue that reuses memory by wrapping around when it reaches the end. It uses head and tail indices to track write and read positions. It provides constant-time insertion and removal and avoids memory shifting, making it ideal for embedded systems like UART or CAN buffering. It is deterministic and memory-efficient, which is critical in automotive firmware.
+	- Example Struct:
+```
+	  #define SIZE 8
+
+		typedef struct {
+			uint8_t buffer[SIZE];
+			uint8_t head;
+			uint8_t tail;
+		} RingBuffer;
+		
+		void push(RingBuffer *rb, uint8_t data)
+		{
+		    rb->buffer[rb->head] = data;
+		    rb->head = (rb->head + 1) % SIZE;
+		}
+		
+		uint8_t pop(RingBuffer *rb)
+		{
+		    uint8_t data = rb->buffer[rb->tail];
+		    rb->tail = (rb->tail + 1) % SIZE;
+		    return data;
+		}
+```
+- Detecting Full vs Empty
+	- Leave One Empty Slot
+		- wastes one slot but keeps the logic simple
+	- ```
+		  ((head + 1) % SIZE) == tail; // full condition
+		  head == tail; // empty condition
+	  ```
+	- Keep a Count Variable
+		- more complexity
+		- more memory
+	- ```
+	  uint8_t count;
+	  ```
+	- Use a Full Flag
+		- needs more logic
+		- ```
+		  bool full;
+		  ```
 ### Example Problems
 
 **Problem 1 – Register Bit Manipulation**
@@ -148,13 +236,42 @@ Be ready to explain:
 **Problem 2 – Circular Buffer (Common in CAN/LIN drivers)**
 
 Implement a fixed-size circular buffer:
-
+- Struct:
+	```
+		#define SIZE 8
+		typedef struct
+		{
+			uint8_t buffer[SIZE];
+			uint8_t head;
+			uint8_t tail;
+		}Circle_buffer;
+	```
 - `push()`
+	```
+		void push(Circle_buffer *cb , uint8_t value)
+		{
+			cb->buffer[cb->head] = value;
+			cb -> head = (cb->head + 1)%SIZE;
+		}
+	```
     
 - `pop()`
-    
+    ```
+	    uint8_t pop(Circle_buffer *cb)
+	    {
+		    uint8_t data = cb->buffer[cb->tail]
+		    cb -> tail = (cb -> tail + 1)%SIZE;
+	    }
+    ```
 - Detect full vs empty
-    
+	- Full:
+		```
+		if((head + 1)%SIZE === tail)
+		```
+	- Empty:
+		```
+			if(head === tail)
+		```
 
 Explain:
 
