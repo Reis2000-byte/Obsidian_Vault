@@ -18,6 +18,24 @@
 - Structs & unions
     
 - Bit manipulation: masks, shifts, toggling bits
+	```
+	#define GPIO_OUT_REG (*(volatile uint32_t*)0x40020014)
+
+	void set_pin(int pin) {
+	    GPIO_OUT_REG |= (1U << pin);
+	}
+	
+	void clear_pin(int pin)
+	{
+	    GPIO_OUT_REG &= ~(1U << pin);
+	}
+	
+	void toggle_pin(int pin)
+	{
+	    GPIO_OUT_REG ^= (1U << pin);
+	}
+	```
+	
     
 - Function pointers
     
