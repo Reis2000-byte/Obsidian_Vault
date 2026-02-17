@@ -18,7 +18,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 	- They can change outside normal control flow
     Example of **ISR**:
 		Regular Code:
-    ```
+    ```C
     int flag = 0;
 
 	void ISR(void)
@@ -35,7 +35,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 	}
 	```
 	Might optimize to without the volatile:
-	```
+	```C
 		if (flag == 0)
 		{
 		    while (1) { }
@@ -43,22 +43,22 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 	```
 - Bit manipulation
     - Write code to set bits 3 and 7.
-	```
+	```C
 	x |= (1U << 3);
 	x |= (1U << 7);
 	```
 	- Extract bits [10:8].
-    ```
+    ```C
     uint32_t extracted = (value >> 8) & 0x7; //could use 0b111 with some compilers
     //other option
     uint32_t extracted = (value & (0x7 << 8)) >> 8;
     ```
 	- Clear lowest set bit.
-    ```
+    ```C
     x &= (x-1);
     ```
 	- Toggle all even bits.
-    ```
+    ```C
     x ^= 0x55555555U;
     ```
 	- Pack two 4-bit values into one byte.
@@ -103,7 +103,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 		- DMA buffers
 		- Register manipulation
 	- Example:
-		```
+		```C
 			void foo(int *x) 
 			{
 			    *x = 10;   // modify value at that address
@@ -119,7 +119,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 		- foo receives a pointer to a
 		- `*x = 10` modifies memory at that address
 		- Embedded Example:
-		```
+		```C
 			void read_sensor(uint16_t *value) 
 			{
 			    *value = ADC_Read();
@@ -138,7 +138,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 	- Syntax:
     ```void (*func_ptr)(void);   // pointer to function```
 	Callbacks:
-```
+```C
 	void register_callback(void (*cb)(int))
 	{
 	    callback = cb;
@@ -148,7 +148,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 - Circular Buffers
 	- A circular buffer is a fixed-size queue that reuses memory by wrapping around when it reaches the end. It uses head and tail indices to track write and read positions. It provides constant-time insertion and removal and avoids memory shifting, making it ideal for embedded systems like UART or CAN buffering. It is deterministic and memory-efficient, which is critical in automotive firmware.
 	- Example Struct:
-```
+```C
 	  #define SIZE 8
 
 		typedef struct {
@@ -173,19 +173,19 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 - Detecting Full vs Empty
 	- Leave One Empty Slot
 		- wastes one slot but keeps the logic simple
-	- ```
+	- ```C
 		  ((head + 1) % SIZE) == tail; // full condition
 		  head == tail; // empty condition
 	  ```
 	- Keep a Count Variable
 		- more complexity
 		- more memory
-	- ```
+	- ```C
 	  uint8_t count;
 	  ```
 	- Use a Full Flag
 		- needs more logic
-		- ```
+		- ```C
 		  bool full;
 		  ```
 ### Example Problems
@@ -197,7 +197,7 @@ Be sharp on low-level C, real-time thinking, and hardware interaction.
 Implement:
 
 - Set pin
-```
+```C
 #define GPIO_OUT_REG (*(volatile uint32_t*)0x40020014)  
 
 void set_pin(int pin)
@@ -206,7 +206,7 @@ void set_pin(int pin)
 } 
 ```
 - Clear pin
-```
+```C
 #define GPIO_OUT_REG (*(volatile uint32_t*)0x40020014)  
 
 void clear_pin(int pin)
@@ -215,7 +215,7 @@ void clear_pin(int pin)
 } 
 ```
 - Toggle pin
-```
+```C
 #define GPIO_OUT_REG (*(volatile uint32_t*)0x40020014)  
 
 void toggle_pin(int pin)
@@ -237,7 +237,7 @@ Be ready to explain:
 
 Implement a fixed-size circular buffer:
 - Struct:
-	```
+	```C
 		#define SIZE 8
 		typedef struct
 		{
@@ -247,7 +247,7 @@ Implement a fixed-size circular buffer:
 		}Circle_buffer;
 	```
 - `push()`
-	```
+	```C
 		void push(Circle_buffer *cb , uint8_t value)
 		{
 			cb->buffer[cb->head] = value;
@@ -256,7 +256,7 @@ Implement a fixed-size circular buffer:
 	```
     
 - `pop()`
-    ```
+    ```C
 	    uint8_t pop(Circle_buffer *cb)
 	    {
 		    uint8_t data = cb->buffer[cb->tail]
@@ -265,11 +265,11 @@ Implement a fixed-size circular buffer:
     ```
 - Detect full vs empty
 	- Full:
-		```
+		```C
 		if((head + 1)%SIZE === tail)
 		```
 	- Empty:
-		```
+		```C
 			if(head === tail)
 		```
 
@@ -357,7 +357,93 @@ Write a state machine using:
 - Switch case
     
 - Event driven design
-    
+
+
+	```C
+		typedef enum
+		{
+			IDLE,
+			MOVING_UP,
+			MOVING_DOWN,
+			OBSTRUCTION_DETECTED,
+			CALIBRATION
+		}state_t;
+		
+		typedef enum
+		{
+			EV_NONE,
+			EV_BTN_UP,
+			EV_BTN_DOWN,
+			EV_BTN_RELEASE,
+			E_OBSTRUCTION,
+			EV_TOP_REACHED,
+			EV_BOTTOM_REACHED,
+		}
+		
+		//HAL FUNCTIONS
+		
+		void motor_up(void);
+		void motor_down(void);
+		void motor_stop(void);
+		void reverse_motor(void);
+		
+		static state_t current_state = IDLE;
+		
+		void state_machine_process(event_t event)
+		{
+			switch(current_state)
+			{
+					case IDLE:
+					{
+						switch(event)
+							case EV_BTN_UP:
+								motor_up();
+								current_state = MOVING_UP;
+							case EV_BTN_DOWN:
+								motor_down;
+								current_state = MOVING_DOWN;
+							case CALIBRATION:
+								current_state = CALIBRATION;
+							default:
+								break;
+					}
+					
+					case MOVING_UP:
+					
+					case MOVING_DOWN:
+					
+					case OBSTRUCTION_DETECTED:
+					
+					case CALIBRATION:
+					
+					case default:
+						current_state = IDLE;
+						break;
+			}
+		}
+		
+		void button_up_isr(void)
+		{
+			push_event(EV_BTN_UP);
+		}
+		
+		int main (void)
+		{
+			event_t event;
+			
+			while(1)
+			{
+				event = get_next_event();
+				
+				if(event != EV_NONE)
+				{
+					state_machine_process(event);
+				}
+			}
+		}		
+		
+	```
+
 
 Be ready to discuss:
 
@@ -390,12 +476,38 @@ Implement:
 
 `if (temp < 38) heater_on(); else if (temp > 42) heater_off();`
 
+```C
+#define DEADBAND 2
+#define TEMP_HIGH 42
+#define TEMP_LOW 38
+
+static bool heater_enabled = false;
+
+void temperature_control(float temp_c)
+{
+	if(temp_c < TEMP_LOW + DEADBAND)
+	{
+		heater_on();
+		heater_enabled = true;
+	}
+	
+	else if(temp_c > TEMP_HIGH - DEADBAND)
+	{
+		heater_off();
+		heater_enabled = false;
+	}
+}
+
+```
+
+
 Be ready to discuss:
 
 - Oscillation problem
     
 - Adding hysteresis
-    
+
+
 - Why it works in slow systems
     
 

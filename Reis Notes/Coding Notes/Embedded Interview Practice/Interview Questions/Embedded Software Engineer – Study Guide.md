@@ -151,7 +151,7 @@ basic implementation without states:
 
 Implementation with states:
 
-```
+```C
 	type_def enum 
 	{
 		IDLE,
