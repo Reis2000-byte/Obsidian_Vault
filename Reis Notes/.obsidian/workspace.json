@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Embedded Interview Practice/Interview Questions/Embedded Software Engineer – Study Guide.md",
+                "file": "Coding Notes/Linux/Linux Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Embedded Software Engineer – Study Guide"
+              "title": "Linux Commands"
             }
           }
         ]
@@ -171,8 +171,12 @@
   },
   "active": "401042c514b68f8d",
   "lastOpenFiles": [
-    "Coding Notes/Embedded Interview Practice/Interview Questions/Interview Questions.md",
+    "Coding Notes/Linux/VIM Commands.md",
+    "Coding Notes/Linux/Linux Notes.md",
+    "Coding Notes/Linux/Linux Commands.md",
     "Coding Notes/Embedded Interview Practice/Interview Questions/Embedded Software Engineer – Study Guide.md",
+    "Coding Notes/Linux",
+    "Coding Notes/Embedded Interview Practice/Interview Questions/Interview Questions.md",
     "Coding Notes/Embedded Interview Practice/3 Day Plan.md",
     "Coding Notes/Embedded Interview Practice/Ceedling Question.md",
     "Coding Notes/Embedded Interview Practice/Interview Prompt.md",
@@ -202,12 +206,8 @@
     "HVAC STUFF",
     "Circuit Design Notes/Rectifiers.md",
     "HVAC STUFF/Zoopas Electric Heater Training.md",
-    "Coding Notes/Operating System Notes",
     "HVAC STUFF/Hydra/BacNet Stack/BacNet Stack Notes.md",
     "HVAC STUFF/Hydra/System Notes/Requirement Review.md",
-    "HVAC STUFF/Hydra/SQA Test & Notes/SQA Bug Notes.md",
-    "Plug In Development/Plug in Brain Dump.md",
-    "Hydra/SQA Test & Notes/AC Functionality.md",
     "HVAC STUFF/Hydra/SQA Test & Notes/Pasted image 20250930094208.png"
   ]
 }

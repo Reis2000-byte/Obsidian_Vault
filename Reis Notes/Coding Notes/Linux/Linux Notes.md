@@ -1,0 +1,2 @@
+- (.) before files makes them hidden and they all show with the all command
+- 
