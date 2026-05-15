@@ -1,0 +1,7 @@
+- 6 month mentorship
+- Built around 3 pillars:
+	- System and Strategy:
+		- Goal is to make 5%-10%
+- Guac Software gives the trades
+- 6k for 1 to 1 for 6 months
+- discords and just software 2.5k for 6 months

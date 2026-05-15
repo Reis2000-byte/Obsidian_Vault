@@ -1,0 +1,13 @@
+- pressure is fast but can be very noisy
+- Hold compressor until the EEV opens. EEV depends on the OAT and blower speed. Need product team to create a table for preopening the EEV based on tonnage and other items
+- When compressor stops need to hold the EEV open so that pressure equalizes
+- Need to look into the line set difference between heating and cooling because it might change
+- Will need a feed forward or delay on activation signal. Response might be ahead of actuation
+- Defrost has a higher risk of flooding so there is a specific mode. Might not need this for fixed speed but definitely INV systems
+- Look into EEV failure pump down mode. Commonly disconnect power
+- thermistor can have a 3-5 second delay
+- wanted to create in confluence because it is easily writeable
+- after it is made then the transfer it into r4j
+- Nirmal to make a control spec then share and show to make sure that it matches
+- EEV can be overdriven at power up to ensure that it is closed and zeroed to then calculate
+- We will design first in stateflow then handcode after

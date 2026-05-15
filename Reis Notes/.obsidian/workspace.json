@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "2493c84e404ec617",
+    "id": "0d4b610debbb6bba",
     "type": "split",
     "children": [
       {
-        "id": "c33ce230d5264307",
+        "id": "88d3d2ad8f216ffa",
         "type": "tabs",
         "children": [
           {
-            "id": "401042c514b68f8d",
+            "id": "6a90059659dc4d98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Linux/Linux Commands.md",
+                "file": "Stock Investing/Options/Cash Secured Puts/Liquidity Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Commands"
+              "title": "Liquidity Notes"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "26e3958c2c745a1a",
+    "id": "a12a81eba586f30a",
     "type": "split",
     "children": [
       {
-        "id": "3655e616f65f071a",
+        "id": "e77506b67e070484",
         "type": "tabs",
         "children": [
           {
-            "id": "969090c2dca895d3",
+            "id": "ddbb57ee4ff14007",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "62221e7a72fcee53",
+            "id": "27df0255e86551ee",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "8cae958c8743011f",
+            "id": "e9845b69589c098d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,19 @@
     "width": 200
   },
   "right": {
-    "id": "e7ecbdbc2f58c665",
+    "id": "38f8da5e228c3637",
     "type": "split",
     "children": [
       {
-        "id": "d2ac2fab5f6e965f",
+        "id": "6de0d098e5448923",
         "type": "tabs",
         "children": [
           {
-            "id": "f7050462b08dd678",
+            "id": "6bca83bbaed0db9c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hydra/Product Team Q&A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Product Team Q&A"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "71470c74433818fa",
+            "id": "d812374c4cd9f1f5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hydra/Product Team Q&A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Product Team Q&A"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "5f5812652f153cb9",
+            "id": "7a2d4f14c67f7959",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +135,17 @@
             }
           },
           {
-            "id": "3c135bdc58b195a6",
+            "id": "5751935a54a1833b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hydra/Product Team Q&A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Team Q&A"
+              "title": "Outline"
             }
           }
         ]
@@ -169,45 +166,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "401042c514b68f8d",
+  "active": "6a90059659dc4d98",
   "lastOpenFiles": [
-    "Coding Notes/Linux/VIM Commands.md",
-    "Coding Notes/Linux/Linux Notes.md",
-    "Coding Notes/Linux/Linux Commands.md",
-    "Coding Notes/Embedded Interview Practice/Interview Questions/Embedded Software Engineer – Study Guide.md",
-    "Coding Notes/Linux",
-    "Coding Notes/Embedded Interview Practice/Interview Questions/Interview Questions.md",
-    "Coding Notes/Embedded Interview Practice/3 Day Plan.md",
-    "Coding Notes/Embedded Interview Practice/Ceedling Question.md",
-    "Coding Notes/Embedded Interview Practice/Interview Prompt.md",
-    "Coding Notes/Embedded Interview Practice/Bit Manipulation/Bit Manipulation.md",
-    "Communication/UART.md",
-    "Coding Notes/Operating System Notes/Flow of Mutex & Semaphores.md",
-    "Communication/I2C.md",
-    "Communication/SPI.md",
-    "Communication",
-    "Pete Call Notes.md",
-    "Coding Notes/Unions.md",
-    "Coding Notes/Structs.md",
-    "Coding Notes/Ternary Operator.md",
-    "Coding Notes/Embedded Interview Practice/Pointers",
-    "Coding Notes/Memory Allocation.md",
-    "Coding Notes/Operating System Notes/Threads.md",
-    "Coding Notes/Embedded Interview Practice/Interview Questions/desktop.ini",
-    "Coding Notes/Embedded Interview Practice/Bit Manipulation/desktop.ini",
-    "Coding Notes/Embedded Interview Practice/desktop.ini",
-    "Coding Notes/Embedded Interview Practice/Interview Questions",
-    "Coding Notes/Embedded Interview Practice/Bit Manipulation",
-    "Coding Notes/Embedded Interview Practice",
-    "Coding Notes/Operating System Notes/Semaphores.md",
-    "Coding Notes/Operating System Notes/Recursive Mutexes.md",
-    "Coding Notes/Operating System Notes/Mutex.md",
-    "Circuit Design Notes/Pasted image 20251121092817.png",
-    "HVAC STUFF",
-    "Circuit Design Notes/Rectifiers.md",
-    "HVAC STUFF/Zoopas Electric Heater Training.md",
-    "HVAC STUFF/Hydra/BacNet Stack/BacNet Stack Notes.md",
+    "Stock Investing/Options/Cash Secured Puts/In the Money or Out of the Money.md",
+    "Stock Investing/Options/Cash Secured Puts/Implied Volatility.md",
+    "Stock Investing/Options/Cash Secured Puts/Date to Expiration.md",
+    "Stock Investing/Options/Cash Secured Puts/Trading View Indicators/Trading View Clouds.md",
+    "Stock Investing/Options/Cash Secured Puts/Liquidity Notes.md",
+    "Stock Investing/Options/Cash Secured Puts/Trading View Indicators",
+    "Stock Investing/Options/Market Meeting.md",
+    "Stock Investing/Options/Cash Secured Puts/Matt Market Notes.md",
+    "Stock Investing/Options/Cash Secured Puts",
     "HVAC STUFF/Hydra/System Notes/Requirement Review.md",
-    "HVAC STUFF/Hydra/SQA Test & Notes/Pasted image 20250930094208.png"
+    "General Options Terms.md",
+    "HVAC STUFF/ICM Notes/ICM Lunch & Learn Meeting.md",
+    "Stock Investing/Options/Summary Table Put Options.png",
+    "Trainings/Microchip VS Code Training.md",
+    "Pasted image 20260514091000.png",
+    "Stock Investing/Options/Summary Table Call Options.png",
+    "HVAC Notes/Pasted image 20260410092341.png",
+    "Outside Work/Pete Call Notes 1.md",
+    "Stock Investing/Options",
+    "Summary Table Call Options.md",
+    "Stock Investing"
   ]
 }
