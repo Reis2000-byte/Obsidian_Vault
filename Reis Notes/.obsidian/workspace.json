@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a90059659dc4d98",
+            "id": "b45688baaa5addc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stock Investing/Options/Cash Secured Puts/Liquidity Notes.md",
+                "file": "HVAC Notes/Hydra/Functional Specs/Reviews/June 1st.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Liquidity Notes"
+              "title": "June 1st"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "38f8da5e228c3637",
@@ -94,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HVAC Notes/Hydra/EEV Notes/EEV Brainstorm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for EEV Brainstorm"
             }
           },
           {
@@ -152,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -166,28 +168,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "6a90059659dc4d98",
+  "active": "b45688baaa5addc9",
   "lastOpenFiles": [
+    "HVAC Notes/Hydra/Functional Specs/Reviews/May 27th.md",
+    "HVAC Notes/Hydra/Functional Specs/Reviews/June 1st.md",
+    "HVAC Notes/Hydra/EEV Notes/EEV Brainstorm.md",
+    "HVAC Notes/Hydra/Functional Specs/Reviews/May 12th.md",
+    "HVAC Notes/Hydra/EEV Notes/Tats Suggested EEV Notes.md",
+    "HVAC Notes/Hydra/Meeting Minutes/EEV Spec Requirements and Discussion.md",
+    "HVAC Notes/Hydra/EEV Notes/INV EEV Control Analysis.md",
+    "HVAC Notes/Hydra/EEV Notes/EEV Comments from Tats.md",
+    "HVAC Notes/Hydra/EEV Notes/EEV Control.md",
+    "HVAC Notes/HVAC Cycle.md",
+    "HVAC Notes/Pasted image 20260410092341.png",
+    "HVAC Notes/Zoopas Electric Heater Training.md",
+    "HVAC Notes/ICM Notes/ICM Lunch & Learn Meeting.md",
+    "HVAC Notes/Relyence/Relyence.md",
+    "HVAC Notes/Zoopas Electric Heater Training 1.md",
+    "HVAC Notes/Hydra/System Notes/Requirement Review.md",
+    "Stock Investing/Options/General Options Terms.md",
+    "HVAC Notes/HVAC STUFF/Hydra/System Notes/Electric Heat Notes.md",
+    "HVAC Notes/HVAC STUFF/Hydra/System Notes/INV Needs.md",
+    "HVAC Notes/HVAC STUFF/Hydra/System Notes/Product Team Q&A.md",
+    "HVAC Notes/HVAC STUFF/Hydra/System Notes/Requirement Review.md",
+    "Stock Investing/Options/Market Meeting.md",
+    "Stock Investing/Options/Option Pricing and Volatility Book Notes/The Language of Options.md",
+    "Stock Investing/Options/Cash Secured Puts/Liquidity Notes.md",
+    "Stock Investing/Options/Option Pricing and Volatility Book Notes",
     "Stock Investing/Options/Cash Secured Puts/In the Money or Out of the Money.md",
     "Stock Investing/Options/Cash Secured Puts/Implied Volatility.md",
     "Stock Investing/Options/Cash Secured Puts/Date to Expiration.md",
-    "Stock Investing/Options/Cash Secured Puts/Trading View Indicators/Trading View Clouds.md",
-    "Stock Investing/Options/Cash Secured Puts/Liquidity Notes.md",
     "Stock Investing/Options/Cash Secured Puts/Trading View Indicators",
-    "Stock Investing/Options/Market Meeting.md",
-    "Stock Investing/Options/Cash Secured Puts/Matt Market Notes.md",
     "Stock Investing/Options/Cash Secured Puts",
-    "HVAC STUFF/Hydra/System Notes/Requirement Review.md",
-    "General Options Terms.md",
-    "HVAC STUFF/ICM Notes/ICM Lunch & Learn Meeting.md",
     "Stock Investing/Options/Summary Table Put Options.png",
-    "Trainings/Microchip VS Code Training.md",
     "Pasted image 20260514091000.png",
     "Stock Investing/Options/Summary Table Call Options.png",
-    "HVAC Notes/Pasted image 20260410092341.png",
-    "Outside Work/Pete Call Notes 1.md",
     "Stock Investing/Options",
-    "Summary Table Call Options.md",
     "Stock Investing"
   ]
 }

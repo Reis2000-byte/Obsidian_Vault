@@ -1,0 +1,13 @@
+LEGEND:
+	- EVM: expansion valve
+	- IP: 
+	- $\Delta$T0S:
+	- $\Delta$T0:
+	- Ta: ambient temp?
+	- Teg: 
+	- Pe:
+	- X1E:
+	- pls:
+	- X1Eini:
+	- 
+- ACT command is what allows the program to overwrite certain variables
