@@ -152,3 +152,15 @@ bool uart_read(uart_handle_t *uart, uint8_t *data)
 }
 
 ```
+
+Line Feed (LF):
+- \n moves the cursor down one line
+
+Carriage Return(CR)
+- \r Moves the cursor back to the start of the current line
+
+Why you need both in serial terminals:
+- You will need to move the cursor to a new line and back to the far left of the screen
+
+Why enter sends \r:
+- in a serial terminal if you press enter it sends \r because it says to thee terminal that it is done with the line

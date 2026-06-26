@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "88d3d2ad8f216ffa",
+        "id": "9e50b220942c3d28",
         "type": "tabs",
         "children": [
           {
-            "id": "b45688baaa5addc9",
+            "id": "198af64c93b8e27a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HVAC Notes/Hydra/Functional Specs/Reviews/June 1st.md",
+                "file": "Embedded_Projects/RTOS-Based Environmental Monitor/Week by Week Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "June 1st"
+              "title": "Week by Week Plan"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "38f8da5e228c3637",
@@ -168,36 +167,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "b45688baaa5addc9",
+  "active": "198af64c93b8e27a",
   "lastOpenFiles": [
-    "HVAC Notes/Hydra/Functional Specs/Reviews/May 27th.md",
-    "HVAC Notes/Hydra/Functional Specs/Reviews/June 1st.md",
-    "HVAC Notes/Hydra/EEV Notes/EEV Brainstorm.md",
-    "HVAC Notes/Hydra/Functional Specs/Reviews/May 12th.md",
-    "HVAC Notes/Hydra/EEV Notes/Tats Suggested EEV Notes.md",
-    "HVAC Notes/Hydra/Meeting Minutes/EEV Spec Requirements and Discussion.md",
-    "HVAC Notes/Hydra/EEV Notes/INV EEV Control Analysis.md",
-    "HVAC Notes/Hydra/EEV Notes/EEV Comments from Tats.md",
-    "HVAC Notes/Hydra/EEV Notes/EEV Control.md",
-    "HVAC Notes/HVAC Cycle.md",
-    "HVAC Notes/Pasted image 20260410092341.png",
-    "HVAC Notes/Zoopas Electric Heater Training.md",
-    "HVAC Notes/ICM Notes/ICM Lunch & Learn Meeting.md",
-    "HVAC Notes/Relyence/Relyence.md",
-    "HVAC Notes/Zoopas Electric Heater Training 1.md",
-    "HVAC Notes/Hydra/System Notes/Requirement Review.md",
-    "Stock Investing/Options/General Options Terms.md",
-    "HVAC Notes/HVAC STUFF/Hydra/System Notes/Electric Heat Notes.md",
-    "HVAC Notes/HVAC STUFF/Hydra/System Notes/INV Needs.md",
-    "HVAC Notes/HVAC STUFF/Hydra/System Notes/Product Team Q&A.md",
-    "HVAC Notes/HVAC STUFF/Hydra/System Notes/Requirement Review.md",
-    "Stock Investing/Options/Market Meeting.md",
-    "Stock Investing/Options/Option Pricing and Volatility Book Notes/The Language of Options.md",
-    "Stock Investing/Options/Cash Secured Puts/Liquidity Notes.md",
+    "Work Notes/Work Trainings/FCT Hydra Meeting Notes.md",
+    "Embedded_Projects/RTOS-Based Environmental Monitor/Week by Week Plan.md",
+    "Work Notes/Work Trainings/Microchip ML Brainstorming Event.md",
+    "Embedded_Projects/RTOS-Based Environmental Monitor/Threading Architecture.md",
+    "Work Notes",
+    "Embedded_Projects/RTOS-Based Environmental Monitor/UART Architecture.md",
+    "Embedded_Projects/RTOS-Based Environmental Monitor/Message Queue.md",
+    "Coding Notes/Unions.md",
+    "Coding Notes/Structs.md",
+    "Coding Notes/Ternary Operator.md",
+    "Coding Notes/Memory Allocation.md",
+    "Coding Notes/Data Types/Int.md",
+    "Coding Notes/Data Types",
+    "Coding Notes/Embedded Interview Practice/Bit Manipulation/Bit Manipulation.md",
+    "Coding Notes/Communication/UART.md",
+    "Embedded_Projects/RTOS-Based Environmental Monitor",
+    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/June 1st.md",
+    "Embedded_Projects",
+    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/May 27th.md",
+    "Work Notes/HVAC Notes/Hydra/EEV Notes/EEV Brainstorm.md",
+    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/May 12th.md",
+    "Work Notes/HVAC Notes/Hydra/EEV Notes/Tats Suggested EEV Notes.md",
+    "Work Notes/HVAC Notes/Hydra/Meeting Minutes/EEV Spec Requirements and Discussion.md",
+    "Work Notes/HVAC Notes/Hydra/EEV Notes/INV EEV Control Analysis.md",
+    "Work Notes/HVAC Notes/Hydra/EEV Notes/EEV Comments from Tats.md",
+    "Work Notes/HVAC Notes/Hydra/EEV Notes/EEV Control.md",
+    "Work Notes/HVAC Notes/HVAC Cycle.md",
+    "Work Notes/HVAC Notes/Pasted image 20260410092341.png",
+    "Work Notes/HVAC Notes/Zoopas Electric Heater Training.md",
+    "Work Notes/HVAC Notes/ICM Notes/ICM Lunch & Learn Meeting.md",
+    "Work Notes/HVAC Notes/Relyence/Relyence.md",
     "Stock Investing/Options/Option Pricing and Volatility Book Notes",
-    "Stock Investing/Options/Cash Secured Puts/In the Money or Out of the Money.md",
-    "Stock Investing/Options/Cash Secured Puts/Implied Volatility.md",
-    "Stock Investing/Options/Cash Secured Puts/Date to Expiration.md",
     "Stock Investing/Options/Cash Secured Puts/Trading View Indicators",
     "Stock Investing/Options/Cash Secured Puts",
     "Stock Investing/Options/Summary Table Put Options.png",

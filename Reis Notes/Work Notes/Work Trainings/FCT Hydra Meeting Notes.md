@@ -1,0 +1,21 @@
+- Look at the commit "add hydra fct test"
+- shell_uart inside the hydra_2_3_overlay
+- Still the atmel stuff not on the microchip stuff
+- Shell commands:
+	- 'get_all_bool'
+	- There are a ton but if you type help and press enter it makes it
+- Usb allows for multiple uart lines across it
+- Don't need baud rate for uart across usb because it is the magic of usb. The chip data sheet says that we support 8 end points
+- Have them use the 'get_all_mv' command because it should make more sense to them because if they use a 10k resistor across then they should see that it gets half the rail
+- dac 0 is the blower
+- other dac is for the eco dampener
+- set_relay (relay #, value)
+- J43 are the speed taps and only one tap can be set at a time
+- coms tests all the communication lines and will use a loopback test. Will fail if they are not plugged in
+- Short the ACS and DG connect lines so that he gets the messages back
+- For EEV a step function will occur for all of the lines to test all of the outputs. Will be running the whole time. You dont need a command.
+- Shell code 'Hydra FCT App' src/test_shell.c
+
+Setting up Shell:
+- K Config enabled
+- Set Uart in device tree/overlay as a shell
