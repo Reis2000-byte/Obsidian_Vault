@@ -1,0 +1,2 @@
+ - Embedded Systems use cross compilers which will create an image that run on the embedded target and not that desktop
+ - Regardless of the language object oriented design is important and helps with creating robust programs

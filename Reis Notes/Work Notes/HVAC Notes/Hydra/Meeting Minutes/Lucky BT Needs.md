@@ -1,0 +1,3 @@
+- tap to connect
+- make a wizard to guide the user how to change points list and commission the unit
+- copy and paste configuration. template idea and name it as something
