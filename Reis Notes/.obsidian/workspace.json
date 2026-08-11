@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.2 Row Reduction and Echelon Forms.md",
+                "file": "Work Notes/Firmware Notes/Database Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 Row Reduction and Echelon Forms"
+              "title": "Database Notes"
             }
           }
         ]
@@ -171,19 +171,20 @@
   },
   "active": "64dffbaaf32b34d8",
   "lastOpenFiles": [
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810132605.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810132458.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810132429.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810132044.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810132008.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810112334.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810112306.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810111908.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810111519.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810111446.png",
-    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260810111416.png",
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/1.2 Excercises.md",
+    "Work Notes/Firmware Notes/Database Notes.md",
+    "Work Notes/Firmware Notes",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/Attachments/Pasted image 20260811110711.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/Attachments/Pasted image 20260811110654.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/Attachments/Pasted image 20260811110639.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/Attachments/Pasted image 20260811110623.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/Attachments/Pasted image 20260811110603.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/Attachments/Pasted image 20260811110547.png",
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.2 Row Reduction and Echelon Forms.md",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260811110523.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260811110508.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260811110445.png",
+    "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260811110427.png",
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.1 System of Linear Equations.md",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/1. Introduction/Embedded System Development.md",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/1. Introduction/Compilers, Language, and Object-Oriented Programming.md",
@@ -198,7 +199,6 @@
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra",
     "Book_Club_Notes/Linear Algebra and its Applications",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software",
-    "Book_Club_Notes",
     "Embedded_Projects/LC-Control-Boards.md",
     "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Prompt.md",
     "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/July 17th.md",
