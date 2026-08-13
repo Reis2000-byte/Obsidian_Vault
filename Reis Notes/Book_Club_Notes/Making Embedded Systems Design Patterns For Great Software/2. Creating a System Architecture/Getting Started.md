@@ -1,0 +1,13 @@
+- System architecture diagram is a good starting point to best understand the system and start planning out the software solutions for it
+- It is good practice to have the product definition fleshed out before starting on the system architecture
+- Hardware being stable is crucial to the design because it might make the software look buggy
+
+- Ways to get started with system design:
+	- Composition:
+		- Starting with a blank slate, an idea, or end goal in mind
+		- Starting from a blank slate can be daunting
+	- Decomposition:
+		- Go from an existing product to the architecture
+		- Reverse engineering
+- Good tips:
+	- If the diagrams get to big bundle something into one box and break up the diagrams

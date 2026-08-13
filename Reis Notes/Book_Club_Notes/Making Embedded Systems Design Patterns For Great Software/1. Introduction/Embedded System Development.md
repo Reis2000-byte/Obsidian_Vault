@@ -41,3 +41,9 @@
 ## Interview Question
 ![[Pasted image 20260805113057.png]]
 ![[Pasted image 20260805113116.png]]
+
+## Prototypes and Maker Boards
+
+- Just because you have the system working on a Pi or Arduino does not mean that it will work with the product
+- Using custom boards push you out of simplified dev environments
+- Adding external programmer/debugger gives us debugging beyond `printf()`
