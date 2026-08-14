@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Creating System Diagrams.md",
+                "file": "Work Notes/HVAC Notes/Hydra/High Level Hydra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creating System Diagrams"
+              "title": "High Level Hydra"
             }
           }
         ]
@@ -169,14 +169,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "ddbb57ee4ff14007",
+  "active": "167f2ed18cc680a9",
   "lastOpenFiles": [
-    "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/1. Introduction/Embedded System Development.md",
+    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Prompt.md",
+    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Aug 3rd.md",
+    "Work Notes/HVAC Notes/Hydra/Testing/Hydra Firmware Bug Fixing.md",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Creating System Diagrams.md",
+    "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/1. Introduction/Embedded System Development.md",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Getting Started.md",
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Exercises/1.2 Excercises.md",
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.2 Row Reduction and Echelon Forms.md",
-    "Work Notes/HVAC Notes/Hydra/Testing/Hydra Firmware Bug Fixing.md",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Attachments/Pasted image 20260813100330.png",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Attachments/Pasted image 20260813094954.png",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Attachments/Pasted image 20260813094600.png",
@@ -201,11 +203,9 @@
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/1. Introduction/Attachments",
-    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Aug 3rd.md",
     "Book_Club_Notes/Making Embedded Systems Design Patterns For Great Software/1. Introduction",
     "Book_Club_Notes/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra",
     "Embedded_Projects/LC-Control-Boards.md",
-    "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Prompt.md",
     "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/July 17th.md",
     "Work Notes/HVAC Notes/Hydra/Hydra Communication Point List.md",
     "Work Notes/HVAC Notes/Hydra/Testing/2.4 Hardware Validation.md",
