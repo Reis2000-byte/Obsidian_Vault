@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work Notes/HVAC Notes/Hydra/High Level Hydra.md",
+                "file": "Work Notes/HVAC Notes/Hydra/Testing/Hydra Firmware Bug Fixing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "High Level Hydra"
+              "title": "Hydra Firmware Bug Fixing"
             }
           }
         ]
@@ -171,6 +171,10 @@
   },
   "active": "167f2ed18cc680a9",
   "lastOpenFiles": [
+    "Work Notes/HVAC Notes/Hydra/Testing/2.4 Hardware Validation.md",
+    "Work Notes/Firmware Notes/Ceedling.md",
+    "Work Notes/Firmware Notes/Untitled.md",
+    "Work Notes/HVAC Notes/Hydra/High Level Hydra.md",
     "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Prompt.md",
     "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/Aug 3rd.md",
     "Work Notes/HVAC Notes/Hydra/Testing/Hydra Firmware Bug Fixing.md",
@@ -208,13 +212,10 @@
     "Embedded_Projects/LC-Control-Boards.md",
     "Work Notes/HVAC Notes/Hydra/Functional Specs/Reviews/July 17th.md",
     "Work Notes/HVAC Notes/Hydra/Hydra Communication Point List.md",
-    "Work Notes/HVAC Notes/Hydra/Testing/2.4 Hardware Validation.md",
-    "Work Notes/HVAC Notes/Hydra/High Level Hydra.md",
     "Work Notes/HVAC Notes/Hydra/Meeting Minutes/7-23-2026 Meeting with Softway.md",
     "Work Notes/HVAC Notes/Hydra/Hydra Configuration Notes.md",
     "Work Notes/HVAC Notes/Hydra/Kyle Check List Notes.md",
     "Work Notes/HVAC Notes/Hydra/Connector Notes.md",
-    "Work Notes/HVAC Notes/Hydra/Programmer Issues.md",
-    "Work Notes/HVAC Notes/Hydra/Meeting Minutes/EEV Spec Requirements and Discussion.md"
+    "Work Notes/HVAC Notes/Hydra/Programmer Issues.md"
   ]
 }
