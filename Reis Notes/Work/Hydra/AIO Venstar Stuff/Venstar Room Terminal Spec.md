@@ -1,0 +1,8 @@
+- Communication would be over Modbus
+- Points to receive from the 
+	- Effective dead band
+	- Effective setpoint
+	- Cool/Heat
+	- Dehumidification
+	- Room Temp
+	- Blower command

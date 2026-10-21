@@ -1,0 +1,3 @@
+- Fixing blower proving switch logic
+- Changing the flow of the state machines. Made internal delays get captured in the ready states instead of inside the lockouts
+- 

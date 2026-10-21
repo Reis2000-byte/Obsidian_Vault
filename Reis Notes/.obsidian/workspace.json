@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a2bcd16531ec0d31",
+        "id": "9c0e6fb3c949e42e",
         "type": "tabs",
         "children": [
           {
-            "id": "28c8de739b8c5d3e",
+            "id": "1d77dcfd092485b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/HVAC Notes/Hydra/Functional Specs/Change Point for Spec.md",
+                "file": "Work/Hydra/Functional Specs/Reviews/Prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Change Point for Spec"
-            }
-          },
-          {
-            "id": "cad3824b86f8165e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/HVAC Notes/Hydra/Functional Specs/Reviews/Aug 27th.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aug 27th"
+              "title": "Prompt"
             }
           }
         ]
@@ -94,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 369.5
   },
   "right": {
     "id": "38f8da5e228c3637",
@@ -183,53 +169,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "28c8de739b8c5d3e",
+  "active": "1d77dcfd092485b6",
   "lastOpenFiles": [
-    "Work/HVAC Notes/Hydra/Functional Specs/Reviews/Aug 27th.md",
-    "Work/HVAC Notes/Hydra/Functional Specs/Change Point for Spec.md",
+    "Work/Hydra/Functional Specs/Reviews/Oct 12th.md",
+    "Work/Work Trainings/Percepio Tracealyzer Notes.md",
+    "Work/BACnet/BACnet Profiles.md",
+    "Work/Hydra/BACnet Point List.md",
+    "Work/Hydra/AIO Meeting.md",
+    "Work/Hydra/Connector Notes.md",
+    "Work/Hydra/Feature Review with Lucky.md",
+    "Work/Hydra/High Level Hydra.md",
+    "Work/Hydra/Hydra Configuration Notes.md",
+    "Work/Hydra/Kyle Check List Notes.md",
+    "Work/Hydra/Hydra Communication Point List.md",
+    "Work/Hydra/AIO Venstar Stuff/Venstar Room Terminal Spec.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/3. Getting Your Hands on the Hardware/Reading a Datasheet.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/3. Getting Your Hands on the Hardware/Hardware Software Integration.md",
+    "Work/Hydra/Bluetooth Notes/Bluetooth App Alignment.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/3. Getting Your Hands on the Hardware",
+    "Books/Bare Metal Embedded C Programming/2. Constructing Peripheral Registers From Memory Addresses.md",
+    "Work/Hydra/Bluetooth Notes",
+    "Work/Hydra/Attachments/image.png",
+    "Work/Hydra/Attachments",
     "End of Year Goals.md",
-    "Books/Book Notes Template.md",
     "Books/Bare Metal Embedded C Programming/1. Setting Up The Tools Of The Trade.md",
-    "Knowledge Vault/UART.md",
+    "Work/Hydra/AIO Venstar Stuff",
+    "Work/HVAC Notes/Hydra/BacNet Stack/BacNet Stack Notes.md",
+    "Work/Hydra/Functional Specs/Change Point for Spec.md",
+    "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.6 Applications of Linear Systems.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Back to the Drawing Board.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/A Sandbox to Play In.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Attachments/Pasted image 20260910130902.png",
+    "Books/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/Attachments/Pasted image 20260910130654.png",
+    "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.5 Solution Sets of Linear Systems.md",
+    "Work/Hydra/Functional Specs/Reviews/Aug 27th.md",
+    "Books/Making Embedded Systems Design Patterns For Great Software/2. Creating a System Architecture/AOT Draft Notes.md",
     "Untitled",
-    "Knowledge Vault/Unions.md",
-    "Knowledge Vault/Ternary Operator.md",
-    "Knowledge Vault/Structs.md",
-    "Knowledge Vault/Memory Allocation.md",
-    "Coding Notes/Communication/SPI.md",
-    "Coding Notes/Communication/I2C.md",
-    "Knowledge Vault/Linux/Linux Commands.md",
-    "Knowledge Vault/Linux/VIM Commands.md",
-    "Knowledge Vault/Linux/Linux Notes.md",
-    "Knowledge Vault/Operating System Notes/Flow of Mutex & Semaphores.md",
-    "Knowledge Vault/Operating System Notes/Mutex.md",
-    "Knowledge Vault/Operating System Notes/Semaphores.md",
-    "Knowledge Vault/Operating System Notes/Threads.md",
-    "Coding Notes/Operating System Notes/Recursive Mutexes.md",
-    "Coding Notes/Data Types/Int.md",
-    "Projects/Project Ideas.md",
     "Coding Notes/Books/Test Driven Development for Embedded C/desktop.ini",
-    "Work/Hydra Software Architecture Meeting Minutes.md",
     "Books/Test Driven Development for Embedded C",
     "Books/Making Embedded Systems",
     "Books/Bare Metal Embedded C Programming",
     "Knowledge Vault/Books",
-    "Work/HVAC Notes/Hydra/Feature Review with Lucky.md",
-    "Work/BACnet/BACnet Profiles.md",
-    "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/1.5 Solution Sets of Linear Systems.md",
     "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260903083547.png",
     "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260903083513.png",
     "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260903083456.png",
     "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260903083348.png",
     "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260903083327.png",
     "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260903083303.png",
-    "Work Notes/BACnet/Attachments/desktop.ini",
-    "Work/BACnet/Attachments/Pasted image 20260902141843.png",
-    "Work/BACnet/Attachments",
-    "Work Notes/BACnet/desktop.ini",
-    "Work/BACnet",
-    "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260827145823.png",
-    "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260827145807.png",
-    "Books/Linear Algebra and its Applications/1. Linear Equations in Linear Algebra/Attachments/Pasted image 20260827145732.png"
+    "Work/BACnet/Attachments/Pasted image 20260902141843.png"
   ]
 }
